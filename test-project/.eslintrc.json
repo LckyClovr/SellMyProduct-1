@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "prettier"
+  ],
+  "rules": {
+    "unicorn/template-indent": [
+      "error",
+      {
+        "tags": [
+          "outdent",
+          "dedent",
+          "sql",
+          "styled"
+        ],
+        "functions": [
+          "dedent",
+          "stripIndent"
+        ],
+        "selectors": [],
+        "comments": [
+          "indent"
+        ]
+      }
+    ]
+  }
+}
