@@ -23,7 +23,7 @@ export default async function Page() {
                 </h1>
                 <p className="mb-3 text-5xl">
                     Please enter a description of your product then select a
-                    color:
+                    color palette:
                 </p>
                 <SubmitPrompt />
                 {parsedData.prompt != '' && (

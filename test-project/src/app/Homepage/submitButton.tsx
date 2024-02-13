@@ -29,7 +29,7 @@ export default function SubmitPrompt() {
                     <option value="">Color</option>
                     <option value="neutral">Neutral</option>
                     <option value="red">Red</option>
-                    <option value="blue">Orange</option>
+                    <option value="orange">Orange</option>
                     <option value="amber">Amber</option>
                     <option value="yellow">Yellow</option>
                     <option value="lime">Lime</option>

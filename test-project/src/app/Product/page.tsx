@@ -17,9 +17,12 @@ export default async function Page() {
             className={` h-[200vh] w-[screen] bg-${color}-900 overflow-x-hidden overflow-y-hidden font-serif`}
         >
             <div
+                className={`mb-5 grid h-[5vh] w-screen content-center bg-${color}-800 text-center`}
+            ></div>
+            <div
                 className={`mb-5 grid h-[10vh] w-screen bg-${color}-800 content-center text-center`}
             >
-                <h1 className="text-5xl text-white">{parsedData.headline}!</h1>
+                <h1 className="text-4xl text-white">{parsedData.headline}!</h1>
                 <h2 className="text-4xl text-white">
                     {parsedData.subheadline}!
                 </h2>
@@ -36,21 +39,21 @@ export default async function Page() {
                 <div
                     className={`grid h-[50vh] w-[30vw] bg-${color}-700 content-center`}
                 >
-                    <p className="text-center text-4xl text-white opacity-100">
+                    <p className="text-center text-3xl text-white opacity-100">
                         {parsedData.sales1}
                     </p>
                 </div>
                 <div
                     className={`grid h-[50vh] w-[30vw] bg-${color}-700 content-center`}
                 >
-                    <p className="text-center text-4xl text-white opacity-100">
+                    <p className="text-center text-3xl text-white opacity-100">
                         {parsedData.sales2}
                     </p>
                 </div>
                 <div
                     className={`grid h-[50vh] w-[30vw] bg-${color}-700 content-center`}
                 >
-                    <p className="text-center text-4xl text-white opacity-100">
+                    <p className="text-center text-3xl text-white opacity-100">
                         {parsedData.sales3}
                     </p>
                 </div>

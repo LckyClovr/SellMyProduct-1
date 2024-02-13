@@ -14,7 +14,7 @@ export default async function complete(prompt: string, color: string) {
             {
                 role: 'system',
                 content:
-                    'Give me a name, headline, sub-headline, 3 seperate paragraph of sales text, each paragraph should be less than 100 words, and a call to action about my product. My product is '
+                    'Give me a name (less than 10 words), headline (less than 15 words), sub-headline (less than 15 words), 3 seperate paragraph of sales text (less than 100 words), and a call to action about my product. My product is '
                         .concat(prompt)
                         .concat(
                             '. Give in a JSON format with the names: "product_name","headline","subheadline","p1","p2","p3","call_to_action".'
